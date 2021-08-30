@@ -1,0 +1,8 @@
+<div>{{title}}</div>
+
+<button type="button" (click)="calculateAge()">
+    Calculate Age</button>
+
+<input type="text" (keyup)="onKey($event)">
+
+<p *ngIf="birthDate"> Your Age Is {{Age}}</p>
